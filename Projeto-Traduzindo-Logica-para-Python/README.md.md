@@ -1,30 +1,29 @@
-# 🏢 Auditoria de Orçamentos Corporativos (Python)
+# 💻 Portfólio de Soluções Lógicas e Auditoria de Dados
 
-[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/) [![Status](https://img.shields.io/badge/status-concluído-brightgreen.svg)]()
+## 📝 Descrição do Projeto
+Este repositório reúne uma série de algoritmos desenvolvidos em Python voltados para a automação de processos, auditoria financeira e resolução de problemas lógicos estruturais. O projeto foi consolidado como parte dos estudos em **Engenharia de Software (Unicid)**, focando na aplicação prática de conceitos como casting de dados, estruturas de repetição, condicionais avançadas e tratamento de exceções.
 
-## 📖 Sobre o Projeto
-Este projeto foi desenvolvido como parte da disciplina de [NOME DA DISCIPLINA] do curso de Engenharia de Software. O objetivo do script é processar e calcular o orçamento de uma estrutura organizacional complexa (dicionários aninhados) de uma multinacional, aplicando regras de negócio dinâmicas e auditoria de execução.
+O destaque do portfólio é o **Sistema de Auditoria de Vendas**, que utiliza lógica de quarentena e detecção de anomalias para garantir a integridade financeira em operações comerciais, permitindo ajustes dinâmicos de parâmetros de segurança por parte da gestão.
 
-A solução foi arquitetada utilizando conceitos avançados de Python para garantir flexibilidade, performance e rastreabilidade.
+![Esquema de Fluxo de Dados](http://googleusercontent.com/image_generation_content/0)
+*Figura 1: Representação visual da lógica de auditoria e validação de limites de segurança.*
 
-## 🚀 Funcionalidades
-- **Cálculo Hierárquico:** Varredura completa da estrutura corporativa, independentemente do nível de profundidade.
-- **Filtros Dinâmicos:** Capacidade de ignorar setores específicos e todos os seus subsetores na hora do cálculo financeiro.
-- **Conversão de Câmbio:** Suporte a parâmetros opcionais para conversão de moedas em tempo de execução.
-- **Sistema de Auditoria:** Monitoramento automatizado de tempo de execução e registro (logging) dos parâmetros utilizados na transação financeira.
+## 🚀 Tecnologias Utilizadas
+* **Linguagem:** Python 3.x
+* **Ferramentas:** Google Colab, Jupyter Notebook
+* **Conceitos Aplicados:** Programação Orientada a Funções, Tratamento de Erros (Try/Except), Manipulação de Tipos (Casting).
 
-## 🛠️ Tecnologias e Conceitos Aplicados
-Este projeto foi construído utilizando Python puro (Standard Library), com foco nos seguintes paradigmas e recursos:
-* **Funções Recursivas (Recursion):** Utilizadas para a navegação na árvore de dados (dicionários aninhados).
-* **Decorators:** Implementação do `@auditor` para injetar comportamentos de log e cronometragem sem modificar a lógica de negócios.
-* **Empacotamento de Argumentos (`*args` e `**kwargs`):** Utilizados tanto no decorator quanto na função principal para permitir a passagem dinâmica de departamentos a serem ignorados e taxas de câmbio.
+## 📊 Funcionalidades e Aprendizados
+O desenvolvimento destes scripts permitiu a exploração de diversos cenários do mundo real:
+* **Auditoria de Vendas:** Implementação de algoritmos que sinalizam "REVISÃO MANUAL" quando uma discrepância ultrapassa 2x a média das vendas.
+* **Gestão de Investimentos:** Simulador de poupança com depósitos mensais e cálculo automático de juros compostos.
+* **Monitoramento Climático:** Sistema de alerta para condições extremas (>45°C ou <-5°C) com validação de entradas de dados.
+* **Automação Comercial:** Processamento de inventário com aplicação de descontos progressivos (10% para compras acima de R$ 500).
 
-## ⚙️ Como Executar
-
-### Pré-requisitos
-* Python 3.8 ou superior instalado.
-
-### Passo a Passo
-1. Clone este repositório:
+## 🔧 Como Executar
+1. Clone o repositório para sua máquina local.
+2. Certifique-se de ter o Python instalado.
+3. Execute os scripts individualmente conforme a necessidade:
    ```bash
-   git clone [https://github.com/SeuUsuario/seu-repositorio.git](https://github.com/SeuUsuario/seu-repositorio.git)
+   python algoritmo_de_auditoria_de_dados.py
+   python traduzindo_logica_para_python.py
